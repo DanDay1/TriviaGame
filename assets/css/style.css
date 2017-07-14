@@ -1,0 +1,28 @@
+body {
+ background: #4DCCF0;
+}
+
+.container {
+  width: 100%;
+  max-width: 576px;
+  /*max-width: 960px;*/
+  margin: 0 auto;
+  clear: both;
+ 
+ }
+
+ p  {
+ 	font-size: 24px;
+ 	font-family: helvetica, arial, "New Rail Alphabet", "Galaxie Polaris";
+ }
+
+ .option {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+ }
