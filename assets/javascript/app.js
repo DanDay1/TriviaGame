@@ -35,21 +35,17 @@ $(document).ready(function() {
 
     function q1() {
 
-        var html =
-            "<h1>The Greatest Quiz on Earth!</h1>" +
-            "<h2>What was the name of the Barnum & Bailey Circus’ first elephant?</h2>" +
-            "<ul>" +
-            "<li>Dumbo</li>" +
-            "<li>Jumbo</li>" +
-            "<li>Fungo</li>" +
-            "<li>Hathi</li>" +
-            "</ul>";
+        var html
+        
 
-        // <form>
-        // 	 <input type="radio" name="gender" value="male" checked> Male<br>
-        // 		<input type="radio" name="gender" value="female"> Female<br>
-        // 		<input type="radio" name="gender" value="other"> Other
-        // </form>
+        // "<h1>The Greatest Quiz on Earth!</h1>" +
+        // "<h2>What was the name of the Barnum & Bailey Circus’ first elephant?</h2>" +
+        // "<ul>" +
+        // "<li><img src='assets/images/elephant.jpe'>Dumbo</li>" +
+        // "<li>Jumbo</li>" +
+        // "<li>Fungo</li>" +
+        // "<li>Hathi</li>" +
+        // "</ul>";
 
         // <p>"What was the name of the Barnum & Bailey Circus’ first elephant?"</p> ["A: Dumbo", "B: Jumbo", "C: Fungo", "D: Hathi", "B: Jumbo"];
 
@@ -88,5 +84,5 @@ $(document).ready(function() {
 
     //     for (j = 0; j < questionArray; j++) {
 
-    //     	Andwer goes here
+    //     	Answer goes here
 });
