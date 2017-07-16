@@ -50,11 +50,12 @@ $(document).ready(function() {
     }
 
 
-    $(".btn").click(function() {
+    $("#start").click(function() {
         $("#preGame").hide();
         // $("#game").show();
         $("#questionOne").show();
         console.log("test");
+        clearInterval(clock)
         clock = setInterval(timer, 1000);
         scoreboard();
 
@@ -68,6 +69,8 @@ $(document).ready(function() {
         console.log(incorrect);
         questionsLeft = questionsLeft - 1;
         scoreboard();
+        clearInterval(clock)
+        clock = setInterval(timer, 1000);
         $("#questionTwo").show();
         $("#questionOne").hide();
     });
@@ -77,6 +80,8 @@ $(document).ready(function() {
         console.log(correct);
         questionsLeft = questionsLeft - 1;
         scoreboard();
+        clearInterval(clock)
+        clock = setInterval(timer, 1000);
         $("#QuestionTwo").show();
         $("#questionOne").hide();
     });
