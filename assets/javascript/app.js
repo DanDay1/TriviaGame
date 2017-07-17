@@ -12,6 +12,7 @@ $(document).ready(function() {
     // }
 
 
+var conceal = function (){
 
 
     // $("#game").hide();
@@ -43,6 +44,9 @@ $(document).ready(function() {
     $("#q8wrongAnswer").hide();
     $("#q8rightAnswer").hide();
     // $("#clockCount").hide().
+   }
+
+   conceal();
 
 
     var timer = function() {
@@ -53,7 +57,7 @@ $(document).ready(function() {
         $("#countdown").html(second);
 
         if (second === 0) {
-            $("#questionTwo").hide();
+            conceal();
             $("#end").show();
 
         }
@@ -69,7 +73,7 @@ $(document).ready(function() {
         //  setClock(clock.count, 1000);
         // clock--;
 
-        var html = "<h2>The Greatest Quiz on Earth!</h2>" +
+        var html = "<h3>The Greatest Quiz on Earth!</h3>" +
             "<p>correct: " + correct + "</p>" +
             "<p>incorrect: " + incorrect + "</p>" +
             "<p>questions left: " + questionsLeft + "</p>";

@@ -16,6 +16,7 @@ body {
  }
 
  h1 {
+ 	padding-top: 20px;
  	font-size: 48px;
  	/*color: #FD0202;*/
  	color: #D60C0C;
@@ -28,11 +29,26 @@ body {
 	color: #044BC7;
  }
 
+  h3 {
+  	padding-top: 20px;
+	font-size: 36px;
+	/*color: #1F6AEE;*/
+	color: #044BC7;
+ }
+
 
 
  p  {
  	font-size: 24px;
  	/*color: #FFFFFF;*/
+ 	line-height: 36px;
+ 	font-family: helvetica, arial, "New Rail Alphabet", "Galaxie Polaris";
+ }
+
+ #intro {
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	color: #D60C0C;
  	line-height: 36px;
  	font-family: helvetica, arial, "New Rail Alphabet", "Galaxie Polaris";
  }
