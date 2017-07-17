@@ -19,42 +19,155 @@
             <p>Test your circus IQ! You have eight questions to answer, and have thirty seconds to answer each question.</p>
             </ul>
             <div class="button">
-                <button type="button" id="start"class="btn btn-default btn-lg">Start</button>
+                <button type="button" id="start" class="btn btn-default btn-lg">Start</button>
             </div>
         </div>
-
         <div id="game">
-        <!-- <p>The Greatest Quiz on Earth!</p> -->
+            <!-- <p>The Greatest Quiz on Earth!</p> -->
         </div>
-        
+        <!-- <div id="rightAnswer">
+            <p>Correct!</p>>
+        </div> -->
         <div id="questionOne">
             <p>What was the name of the Barnum &amp; Bailey Circus’ first elephant?</p>
             <button type="button" class="q1wrong btn btn-default btn-lg">A: Dumbo</button>
             <button type="button" class="q1right btn btn-default btn-lg">B: Jumbo</button>
+            <button type="button" class="q1wrong btn btn-default btn-lg">C: Fungo</button>
+            <button type="button" class="q1wrong btn btn-default btn-lg">D: Hathi</button>
         </div>
+        <div id="q1wrongAnswer">
+            <p>Sorry, the correct answer is B: Jumbo.</p>
+            <button type="button" class="toq2 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q1rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq2 btn btn-default btn-lg">Next Question</button>
+        </div>
+
         <div id="questionTwo">
             <p>What year was Cirque du Soleil founded?</p>
+            <button type="button" class="q2wrong btn btn-default btn-lg">C: 1932</button>
+            <button type="button" class="q2wrong btn btn-default btn-lg">C: 1960</button>
             <button type="button" class="q2wrong btn btn-default btn-lg">C: 1973</button>
             <button type="button" class="q2right btn btn-default btn-lg">D: 1984</button>
         </div>
-        <div id="end">
+        <div id="q2wrongAnswer">
+            <p>Sorry, the correct answer is D: 1984.</p>
+            <button type="button" class="toq3 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q2rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq3 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="questionThree">
+        <p>Which American composer was famous for writing circus music?</p>
+            <button type="button" class="q3right btn btn-default btn-lg">A: Karl L. King</button>
+            <button type="button" class="q3wrong btn btn-default btn-lg">B: John Philip Sousa</button>
+            <button type="button" class="q3wrong btn btn-default btn-lg">C: E.E. Bagley</button>
+            <button type="button" class="q3wrong btn btn-default btn-lg">D: Henry Fillmore</button>
+        </div>
+        <div id="q3wrongAnswer">
+            <p>Sorry, the correct answer is A: Karl L. King.</p>
+            <button type="button" class="toq4 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q3rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq4 btn btn-default btn-lg">Next Question</button>
+        </div>
+
+        <div id="questionFour">
+        <p>What did P.T. Barnum proclaim as the “Second Greatest Show on Earth?”</p>
+            <button type="button" class="q4wrong btn btn-default btn-lg">A: The Boston Pops Orchestra</button>
+            <button type="button" class="q4wrong btn btn-default btn-lg">B: Yosemite National Park</button>
+            <button type="button" class="q4wrong btn btn-default btn-lg">C: The Ringling Bros. Circus</button>
+            <button type="button" class="q4right btn btn-default btn-lg">D: The Mount Washington Cog Railway</button>
+        </div>
+        <div id="q4wrongAnswer">
+            <p>Sorry, the correct answer is D: The Mount Washington Cog Railway.</p>
+            <button type="button" class="toq5 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q4rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq5 btn btn-default btn-lg">Next Question</button>
+        </div>
+
+        <div id="questionFive">
+        <p>Czech Composer Julius Fučík composed a march in 1897 that eventually became the “circus theme song” under the title "Thunder and Blazes." What was the original title of this piece?”</p>
+            <button type="button" class="q5wrong btn btn-default btn-lg">A: Entrance of the Gladiators</button>
+            <button type="button" class="q5wrong btn btn-default btn-lg">B: The Big Cage</button>
+            <button type="button" class="q5right btn btn-default btn-lg">C: Grande Marche Chromatique</button>
+            <button type="button" class="q5wrong btn btn-default btn-lg">D Marche des Parachutistes Belges</button>
+        </div>
+        <div id="q5wrongAnswer">
+            <p>Sorry, the correct answer is C: Grande Marche Chromatique.</p>
+            <button type="button" class="toq6 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q5rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq6 btn btn-default btn-lg">Next Question</button>
+        </div>
+        
+        <div id="questionSix">
+        <p>What year did Ringling Bros. and Barnum &amp; Bailey hire their first solo female ringmaster?</p>
+            <button type="button" class="q6wrong btn btn-default btn-lg">A: 1969</button>
+            <button type="button" class="q6wrong btn btn-default btn-lg">B: 1988</button>
+            <button type="button" class="q6wrong btn btn-default btn-lg">C: 1998</button>
+            <button type="button" class="q6right btn btn-default btn-lg">D: 2016</button>
+        </div>
+        <div id="q6wrongAnswer">
+            <p>Sorry, the correct answer is D: 2016.</p>
+            <button type="button" class="toq7 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q6rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq7 btn btn-default btn-lg">Next Question</button>
+        </div>
+
+        <div id="questionSeven">
+        <p>When do circus bands perform John Philip Sousa’s “The Stars and Stripes Forever?”</p>
+            <button type="button" class="q7wrong btn btn-default btn-lg">A Never, the march is considered bad luck in the circus</button>
+            <button type="button" class="q7wrong btn btn-default btn-lg">B: When the clowns take over the stage</button>
+            <button type="button" class="q7right btn btn-default btn-lg">C: During an emergency</button>
+            <button type="button" class="q7wrong btn btn-default btn-lg">D: At the end of the final show of a tour</button>
+        </div>
+        <div id="q7wrongAnswer">
+            <p>Sorry, the correct answer is C: During and emergency</p>
+            <button type="button" class="toq8 btn btn-default btn-lg">Next Question</button>
+        </div>
+        <div id="q7rightAnswer">
+            <p>Correct!</p>
+            <button type="button" class="toq8 btn btn-default btn-lg">Next Question</button>
+        </div>
+
+        <div id="questionEight">
+        <p>John Ringling North II, the great nephew of the Ringling Brothers, currently owns which circus:</p>
+            <button type="button" class="q8wrong btn btn-default btn-lg">A: Cirque du Soleil</button>
+            <button type="button" class="q8right btn btn-default btn-lg">B: The Kelly Miller Circus</button>
+            <button type="button" class="q8wrong btn btn-default btn-lg">C: C: The Big Apple Circus</button>
+            <button type="button" class="q8wrong btn btn-default btn-lg">D: Circus Smirkus</button>
+        </div>
+        <div id="q8wrongAnswer">
+            <p>Sorry, the correct answer is B: The Kelly Miller Circus</p>
             <h1>Thanks for playing.</h1>
-            <h2>See you down the road!</h2>
+            <h2>See you down the road.</h2>
         </div>
-        <h3>Time Remaining: <span id="countdown"></span></h3>
+        <div id="q8rightAnswer">
+            <p>Correct!</p>
+            <h1>Thanks for playing</h1>
+            <h2>See you down the road...</h2>
+            
         </div>
-        <!-- <h3>Time Remaining: <span id="clock"></span></h3> -->
-        <!-- <h1>The Greatest Quiz on Earth!</h1>
-    <h2>What was the name of the Barnum and Bailey Circus first elephant?</h2>
-    <ul id="services">
-        <l1>
-            <button type="button" id="1" class="btn btn-default btn-lg">A: Dumbo</button>
-    </l1>
-       <l2> <button type="button" id="1" class="btn btn-default btn-lg">B: Jumbo</button></l2>
-        <l3> C: Fungo</l3>
-        <li> D: Kristen</li>
-    </ul> -->
+
+        <div id="end">
+            <p>You snooze you lose!</p>
+            <h1>Thanks for playing</h1>
+            <h2>See you down the road...</h2>
+        </div>
+    <div id=clockCount>
+        <p id=countDownCLock>Time Remaining: <span id="countdown"></span></p>
     </div>
+    </div>
+  
 </body>
 
 </html>
