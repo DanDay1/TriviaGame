@@ -25,9 +25,7 @@ $(document).ready(function() {
         console.log(second);
         $("#countdown").html(second);
 
-    // var html = "<p>Time: " + second + "</p>";
-    // $("#countdown").html(html);
-
+        
     }
 
 
@@ -43,7 +41,7 @@ $(document).ready(function() {
             "<p>correct: " + correct + "</p>" +
             "<p>incorrect: " + incorrect + "</p>" +
             "<p>questions left: " + questionsLeft + "</p>";
-            
+
 
         $("#game").html(html);
 
@@ -55,7 +53,7 @@ $(document).ready(function() {
         // $("#game").show();
         $("#questionOne").show();
         console.log("test");
-        clearInterval(clock)
+        clearInterval(clock);
         clock = setInterval(timer, 1000);
         scoreboard();
 
@@ -69,7 +67,9 @@ $(document).ready(function() {
         console.log(incorrect);
         questionsLeft = questionsLeft - 1;
         scoreboard();
-        clearInterval(clock)
+        
+        clearInterval(clock);
+        second = 30;
         clock = setInterval(timer, 1000);
         $("#questionTwo").show();
         $("#questionOne").hide();
@@ -80,7 +80,9 @@ $(document).ready(function() {
         console.log(correct);
         questionsLeft = questionsLeft - 1;
         scoreboard();
-        clearInterval(clock)
+        
+        clearInterval(clock);
+        second = 30;
         clock = setInterval(timer, 1000);
         $("#QuestionTwo").show();
         $("#questionOne").hide();
@@ -111,4 +113,3 @@ $(document).ready(function() {
 
 
 });
-
