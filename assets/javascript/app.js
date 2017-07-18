@@ -43,7 +43,7 @@ var conceal = function (){
     $("#q7rightAnswer").hide();
     $("#q8wrongAnswer").hide();
     $("#q8rightAnswer").hide();
-    // $("#clockCount").hide().
+    $("#clockCount").hide();
    }
 
    conceal();
@@ -59,7 +59,6 @@ var conceal = function (){
         if (second === 0) {
             conceal();
             $("#end").show();
-
         }
     }
 
@@ -126,6 +125,7 @@ var conceal = function (){
         // clock = setInterval(timer, 1000);
         resetClock();
         scoreboard();
+        $("#clockCount").show();
 
         // decrement();
 
@@ -254,11 +254,13 @@ $(".q3wrong").click(function() {
         badGuess();
         $("#q8wrongAnswer").show();
         $("#questionEight").hide();
+        $("#clockCount").hide();
     });
     $(".q8right").click(function() {
         goodGuess();
         $("#q8rightAnswer").show();
         $("#questionEight").hide();
+        $("#clockCount").hide();
     });
     $("toEnd").click(function() {
         $("#q8rightAnswer").hide();
